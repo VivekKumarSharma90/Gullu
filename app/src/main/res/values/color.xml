@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="pink">#FAAFBE</color>
+    <color name="dark_pink">#ff87c3</color>
+    <color name="text_view_price_dark_pink">#80ff87c3</color>
+    <color name="background_pink">#40FAAFBE</color>
+    <color name="white">#ffffff</color>
+    <color name="mazenta">#5C604D</color>
+    <color name="deep_pink">#90FF1493</color>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dark_pink"
+    android:fitsSystemWindows="true"
+    android:minHeight="?attr/actionBarSize"
+    app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pupil"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size20" />
+
+    <TextView
+        android:layout_width="@dimen/dim_100"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:textColor="@color/white"
+        android:layout_marginLeft="@dimen/dim_30"
+        android:background="@drawable/edit_shape"
+        android:textSize="@dimen/text_size20" />
+</android.support.v7.widget.Toolbar>

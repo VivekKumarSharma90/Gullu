@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vivek.android2.gullu.Autocomplete">
+
+    <include
+        android:id="@+id/action_bar"
+        layout="@layout/toolbar"></include>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/action_bar"
+        android:orientation="vertical"
+        android:padding="@dimen/dim_10">
+
+        <AutoCompleteTextView
+            android:id="@+id/autocopmlete"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_40"
+            android:layout_marginTop="@dimen/dim_10"
+            android:background="@drawable/edit_shape"
+            android:completionThreshold="1"
+            android:hint="@string/select_canteen"
+            android:padding="@dimen/dim_5"
+            android:textColor="@color/dark_pink"
+            android:textColorHint="@color/dark_pink"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:textSize="@dimen/text_size18" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_40"
+            android:layout_marginTop="@dimen/dim_10"
+            android:background="@drawable/edit_shape"
+            android:hint="@string/your_name"
+            android:padding="@dimen/dim_5"
+            android:textColor="@color/dark_pink"
+            android:textColorHint="@color/dark_pink"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:textSize="@dimen/text_size18" />
+
+        <EditText
+            android:id="@+id/secret_number"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_40"
+            android:layout_marginTop="@dimen/dim_10"
+            android:background="@drawable/edit_shape"
+            android:hint="@string/roll_no"
+            android:padding="@dimen/dim_5"
+            android:textColor="@color/dark_pink"
+            android:textColorHint="@color/dark_pink"
+            android:textCursorDrawable="@drawable/cursor_color"
+            android:textSize="@dimen/text_size18" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim_40"
+            android:layout_marginTop="@dimen/dim_10"
+            android:background="@drawable/button_selector"
+            android:text="Submit"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text_size18" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:indeterminateDrawable="@drawable/progress"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/block_user_interaction"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B0000000"
+        android:visibility="gone">
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/touch_me"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="touch me" />
+</RelativeLayout><!-- android:background="@drawable/submit_button_shape"--><!--android:background="@drawable/button_selector"-->

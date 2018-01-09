@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Pink Perl</string>
+    <string name="action_settings">Settings</string>
+    <string name="select_canteen">Select Canteen</string>
+    <string name="title_activity_autocomplete">Autocomplete</string>
+    <string name="your_name">Your name</string>
+    <string name="roll_no">Rollment Number</string>
+    <string name="search_name">Search name...</string>
+    <string name="please_wait">Please wait</string>
+    <string name="congratulation">Congratulation!</string>
+    <string name="now_you_are_authorised_to_use_this_app">Now you are authorised to use this app</string>
+    <string name="thanks">Thanks!</string>
+    <string name="title_activity_view_pager">ViewPager</string>
+    <string name="pupil">Pupil</string>
+    <string name="pink_perl">Pink Perl</string>
+    <string name="Fill_it">Fill it</string>
+    <string name="beverage">Beverage</string>
+    <string name="snacks">Snacks</string>
+    <string name="hot_food">Hot Food</string>
+    <string name="cool_food">Cool Food</string>
+    <string name="special">Special</string>
+    <string name="search">Search...</string>
+    <string name="menus">Menus</string>
+</resources>
